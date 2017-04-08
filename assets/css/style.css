@@ -1,3 +1,19 @@
-#links {
-	float: right;
+.wholethang {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#namebox {
+	float: left;
+	width: 650px;
+}
+
+#linkbox {
+	float: left;
+	width: 270px;
+
+}
+
+#name{
+	color: blue;
 }
