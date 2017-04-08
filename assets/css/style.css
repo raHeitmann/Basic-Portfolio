@@ -1,5 +1,6 @@
 .wholethang {
 	width: 960px;
+	height: 400px;
 	margin: 0 auto;
 	background-color:grey;
 }
@@ -8,7 +9,11 @@
 
 	background-color:#ccc;
 	float: left;
-	width: 650px;
+	width: 200px;
+	text-align: center;
+	overflow: auto;
+	font-size: 24px;
+
 }
 
 #linkbox {
@@ -23,6 +28,19 @@
 }
 
 
+#aboutsection
+{
+float: left;
+width: 70%;
+
+}
+
+#connectsection{
+	float: left;
+	width: 30%;
+}
+
+
 .mainsection {
 	float:left;
 }
@@ -31,6 +49,11 @@
 	clear:both;
 	position: fixed;
 	bottom:0;
+	left: 0;
+	right: 0;
 	background-color: red;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
 
 }
