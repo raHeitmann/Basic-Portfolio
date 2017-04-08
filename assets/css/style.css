@@ -1,14 +1,18 @@
 .wholethang {
 	width: 960px;
 	margin: 0 auto;
+	background-color:grey;
 }
 
 #namebox {
+
+	background-color:#ccc;
 	float: left;
 	width: 650px;
 }
 
 #linkbox {
+	background-color: blue;
 	float: left;
 	width: 270px;
 
@@ -16,4 +20,17 @@
 
 #name{
 	color: blue;
+}
+
+
+.mainsection {
+	float:left;
+}
+
+.footer {
+	clear:both;
+	position: fixed;
+	bottom:0;
+	background-color: red;
+
 }
