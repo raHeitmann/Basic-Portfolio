@@ -1,3 +1,9 @@
+* {
+	 -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
 body {
   border: 5px solid black;
 
@@ -28,7 +34,10 @@ h2{
 .container1 {
 	background-color:black;
 	height: 100px;
+	width:960px; 
+	margin:0 auto;
 	overflow:auto;
+	position:relative;
 }
 
 #namebox {
@@ -47,10 +56,14 @@ h2{
 }
 
 #linkbox {
-	background-color: blue;
-	float: left;
-	width: 270px;
+	    background-color: blue;
+    
+    float: left;
+    width: 270px;
 
+    position:absolute;
+
+    right:0px;
 }
 
 #name{
@@ -75,10 +88,13 @@ left: 0px;
 }
 
 #connectsection{
-	float: right;
+	float: left;
 	width: 270px;
+ position:absolute;
 
-	right:0px;
+    right:0px;
+
+    margin-left:20px;
 }
 
 .tealtext{
@@ -87,7 +103,11 @@ left: 0px;
 
 
 .mainsection {
-
+	
+	width: 960px;
+	height:800px;
+	background-color:red;
+	margin:0 auto;
 	position: relative;
 }
 
