@@ -1,13 +1,23 @@
+h1{
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+h2{
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+
+
 .wholethang {
 	width: 960px;
 	height: 400px;
 	margin: 0 auto;
 	background-color:grey;
+
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #namebox {
 
-	background-color:#ccc;
+	background-color:#4aaaa5;
 	float: left;
 	width: 200px;
 	text-align: center;
@@ -24,7 +34,7 @@
 }
 
 #name{
-	color: blue;
+	color: white;
 }
 
 
@@ -38,6 +48,10 @@ width: 70%;
 #connectsection{
 	float: left;
 	width: 30%;
+}
+
+.tealtext{
+	color:#4aaaa5;
 }
 
 
