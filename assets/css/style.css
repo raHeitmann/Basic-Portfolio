@@ -8,6 +8,8 @@ body {
 
   margin:0 auto;
   overflow: auto;
+  background-image: url(../images/pink_dust.png);
+  
 
 }
 
@@ -35,7 +37,7 @@ h2{
 	width: 960px;
 	height: 600px;
 	margin: 0 auto;
-	background-color:grey;
+	background-image: url(assets/images/pink_dust.png);
 	
 }
 
@@ -128,7 +130,7 @@ left: 0px;
 	
 	width: 960px;
 	height:800px;
-	background-color:grey;
+	background-image: url(assets/images/pink_dust.png);
 	margin:0 auto;
 	position: relative;
 }
