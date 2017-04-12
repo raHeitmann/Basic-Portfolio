@@ -144,6 +144,16 @@ left: 0px;
 	position: relative;
 }
 
+
+#submit{
+	width: 150px;
+	height:80px;
+	padding:20px;
+	background-color: #4aaaa5;
+	color:white;
+	font-size: 24px;
+}
+
 .footer {
 	clear:both;
 	font-size:14px;
