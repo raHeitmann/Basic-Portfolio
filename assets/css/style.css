@@ -8,7 +8,7 @@ body {
 
   margin:0 auto;
   overflow: auto;
-  background-image: url(../images/pink_dust.png);
+  background-image: url(../images/cork-wallet.png);
   
 
 }
@@ -37,10 +37,19 @@ h2{
 	width: 960px;
 	height: 600px;
 	margin: 0 auto;
-	background-image: url(assets/images/pink_dust.png);
+	background-image: url(assets/images/cork-wallet.png);
 	
 }
 
+
+.whitebox {
+	background-color:white;
+	height: 140px;
+	width:100%; 
+	margin:0 auto;
+	overflow:auto;
+	
+}
 
 .container1 {
 	background-color:white;
@@ -130,7 +139,7 @@ left: 0px;
 	
 	width: 960px;
 	height:800px;
-	background-image: url(assets/images/pink_dust.png);
+	background-image: url(assets/images/cork-wallet.png);
 	margin:0 auto;
 	position: relative;
 }
