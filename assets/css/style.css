@@ -95,7 +95,55 @@ h2{
 
 #pic {
 	float: left;
-	margin: 10px;
+	margin: 10px 10px 10px 0px;
+}
+
+
+
+#portbox1{
+	position:relative;
+	height: 230px;
+	width: 230px;
+	float: left;
+	margin:30px;
+	
+
+}
+#portbox2{
+	position:relative;
+	height: 230px;
+	width: 230px;
+	float:left;
+	margin:30px;
+
+}
+#portbox3{
+	position:relative;
+	height: 230px;
+	width: 230px;
+	float:left;
+	margin:30px;
+}
+#portbox4{
+	position:relative;
+	height: 230px;
+	width: 230px;
+	float:left;
+	margin:30px;
+	
+
+}
+
+.porttext{
+
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	bottom: 15px;
+	background-color:#4aaaa5;
+	color: white;
+	text-align: center;
+	padding-top:10px;
 }
 
 
@@ -111,6 +159,7 @@ background-color: #ffffff;
 border-style: solid;
 border-color: #dddddd;
 border-width: 2px;
+line-height: 1.5;
 
 left: 0px;
 
@@ -122,6 +171,8 @@ left: 0px;
  position:absolute;
  background-color: #ffffff;
  padding:10px;
+ padding-left:20px;
+ padding-bottom:20px;
 
     right:0px;
 
@@ -146,12 +197,13 @@ left: 0px;
 
 
 #submit{
-	width: 150px;
-	height:80px;
-	padding:20px;
+	width: 140px;
+	height:60px;
+	padding-top:0px;
 	background-color: #4aaaa5;
 	color:white;
-	font-size: 24px;
+	font-size: 22px;
+	border:none;
 }
 
 .footer {
