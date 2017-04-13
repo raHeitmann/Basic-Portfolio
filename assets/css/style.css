@@ -212,6 +212,10 @@ left: 0px;
 	opacity:.6;
 }
 
+a{
+	text-decoration: none;
+}
+
 a:hover {
 	background-color: #4aaaa5;
 
