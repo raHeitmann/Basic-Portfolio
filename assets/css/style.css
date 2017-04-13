@@ -204,7 +204,23 @@ left: 0px;
 	color:white;
 	font-size: 22px;
 	border:none;
+
 }
+
+#submit:hover{
+	background-color:orange;
+	opacity:.6;
+}
+
+a:hover {
+	background-color: #4aaaa5;
+
+}
+
+.piclink:hover{
+	background-color: white;
+}
+
 
 .footer {
 	clear:both;
